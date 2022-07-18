@@ -1,0 +1,10 @@
+{
+  "name": "AnnotatorJS (external)",
+  "factory": "AnnotatorJsEditor.factory()",
+  "scripts": [ "dist/AnnotatorJsEditor.min.js" ],
+  "stylesheets": [ 
+    "dist/AnnotatorJsEditor.min.css" ,
+    "dist/TEI.css" 
+  ],
+  "view": "iframe:cas+xhtml+xml"
+}

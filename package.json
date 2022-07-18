@@ -1,0 +1,29 @@
+{
+  "name": "@inception-project/inception-html-editor",
+  "version": "24.0.0-SNAPSHOT",
+  "author": "INCEpTION Team",
+  "license": "Apache-2.0",
+  "private": true,
+  "homepage": "https://github.com/inception-project/inception#readme",
+  "bugs": {
+    "url": "https://github.com/inception-project/issues"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "@inception-project/inception-js-api": "24.0.0-SNAPSHOT"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38",
+    "esbuild-sass-plugin": "^2.2.6",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "@types/jquery": "^3.5.13",
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.3.1"
+  }
+}
